@@ -142,5 +142,6 @@ if __name__ == '__main__':
     for i in range(len(text_list)):
         text = text_list[i]
         audio_files.append(synthesize_text(text, i))
-    combine_audio(audio_files, "Full.mp3") 
+    """This part needs to be fixed"""
+    #combine_audio(audio_files, "Full.mp3") 
     
